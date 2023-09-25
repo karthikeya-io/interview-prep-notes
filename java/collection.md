@@ -131,7 +131,12 @@ String head = queue.peek(); // Retrieve but don't remove head, "First"
 head = queue.poll(); // Retrieve and remove head, "First"
 ```
 
-### 5. Deque Interface
+### 5. Deque Interface (Double-ended queue, Stack)
+
+- `addFirst(E e)`: Inserts the specified element at the front of this deque.
+- `addLast(E e)`: Inserts the specified element at the end of this deque.
+- `removeFirst()`: Retrieves and removes the first element of this deque.
+- `removeLast()`: Retrieves and removes the last element of this deque.
 
 ```java
 Deque<String> deque = new ArrayDeque<>();
@@ -139,9 +144,41 @@ deque.addFirst("Front");
 deque.addLast("Back");
 String front = deque.removeFirst();
 String back = deque.removeLast();
+// Deque can also be used as a Stack
+Deque<String> stack = new ArrayDeque<>();
+stack.push("Bottom");
+stack.push("Middle");
+stack.push("Top");
+String top = stack.pop(); // returns "Top" and removes it
+String middle = stack.peek(); // returns "Middle" without removing it
 ```
 
-### 6. Iterator Interface
+### 6. PriorityQueue Class
+
+- Implementation: Heap
+- Key Methods:
+  - `add(E e)`: Inserts the specified element.
+  - `poll()`: Retrieves and removes the head of this queue.
+  - `peek()`: Retrieves, but does not remove, the head of this queue.
+
+```java
+PriorityQueue<Integer> pq = new PriorityQueue<>();
+pq.add(5);
+pq.add(1);
+pq.add(3);
+pq.add(2);
+while (!pq.isEmpty()) {
+    System.out.println(pq.poll());
+}
+```
+
+- By default, the elements are ordered in their natural order. To use a custom order, use a custom comparator.
+
+```java
+PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+```
+
+### 7. Iterator Interface
 
 ```java
 List<String> items = new ArrayList<>(Arrays.asList("A", "B", "C"));
@@ -151,7 +188,7 @@ while (iterator.hasNext()) {
 }
 ```
 
-### 7. Collections Class
+### 8. Collections Class
 
 ```java
 List<String> fruits = new ArrayList<>(Arrays.asList("Mango", "Peach", "Berry"));
@@ -161,9 +198,10 @@ Collections.sort(fruits); // Natural order
 Collections.sort(fruits, (a, b) -> b.compareTo(a)); // Reverse order
 // other way for reversion
 // Collections.sort(numbers, Collections.reverseOrder());
+// Collections.sort(numbers, (a, b) -> b - a);
 ```
 
-### 8. Arrays Class
+### 9. Arrays Class
 
 ```java
 int[] numbers = {3, 2, 1};

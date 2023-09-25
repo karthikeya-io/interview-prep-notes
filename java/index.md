@@ -1,6 +1,6 @@
 # Index
 
-1. ## Java Basics
+## 1. Java Basics
 
 - Data Types (primitive and reference)
 - Variables
@@ -8,7 +8,7 @@
 - Control Flow (loops, if-else statements, switch-case)
 - Arrays
 
-2. ## Object-Oriented Programming (OOP)
+## 2. Object-Oriented Programming (OOP)
 
 - Classes and Objects
 - Constructors
@@ -18,7 +18,7 @@
 - Abstraction
 - Interfaces
 
-3. ## Java Collections Framework
+## 3. Java Collections Framework
 
 - Lists (ArrayList, LinkedList)
 - Sets (HashSet, TreeSet)
@@ -26,69 +26,69 @@
 - Queues (PriorityQueue)
 - Deque
 
-4. ## Exception Handling
+## 4. Exception Handling
 
 - Try, catch, finally blocks
 - Throw and throws keyword
 - Custom exceptions
 
-5. ## Java I/O (Input/Output)
+## 5. Java I/O (Input/Output)
 
 - Byte and Character streams
 - Buffer and Buffer Management
 - Reading from and writing to files
 - Serialization
 
-6. ## Java Concurrency
+## 6. Java Concurrency
 
 - Threads and Runnable Interface
 - Synchronization
 - Deadlock and Starvation
 - The java.util.concurrent package
 
-7. ## Java Networking
+## 7. Java Networking
 
 - Sockets and ServerSockets
 - URL, URI, and URN
 - HTTP requests
 
-8. ## Java Database Connectivity (JDBC)
+## 8. Java Database Connectivity (JDBC)
 
 - Connecting to databases
 - Executing SQL queries
 - Handling results
 
-9. ## Java 8 and Newer Features
+## 9. Java 8 and Newer Features
 
 - Lambda Expressions
 - Stream API
 - Optional class
 - New Date and Time API
 
-10. ## Java Testing
+## 10. Java Testing
 
 - Unit Testing with JUnit
 - Mocking with Mockito
 
-11. ## Design Patterns
+## 11. Design Patterns
 
 - Singleton Pattern
 - Factory Pattern
 - Observer Pattern
 - Builder Pattern
 
-12. ## Java Frameworks and Libraries
+## 12. Java Frameworks and Libraries
 
 - Spring Framework (Spring Boot, Spring MVC, Spring Security)
 - Hibernate
 
-13. ## Java Memory Management
+## 13. Java Memory Management
 
 - Understanding of JVM, JRE, JDK
 - Garbage Collection
 - Memory Leaks
 
-14. ## Java Deployment
+## 14. Java Deployment
 
 - Packaging Applications (JAR, WAR)
 - Java Web Start
