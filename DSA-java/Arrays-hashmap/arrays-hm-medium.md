@@ -1,3 +1,5 @@
+## Arrays and Hashmaps (Medium)
+
 ---
 
 ### 1. Group Anagrams
@@ -6,10 +8,11 @@
 
 **Approach**: The key insight is that anagrams will always have the same characters when sorted. We can sort each string and use the sorted version as a key in a hashmap. The corresponding value will be a list of all strings that, when sorted, match that key.
 
-- Time Complexity: O(n * klogk) where `n` is the number of strings and `k` is the average length of a string.
+- Time Complexity: O(n \* klogk) where `n` is the number of strings and `k` is the average length of a string.
 - Space Complexity: O(nk)
 
 **Java Code**:
+
 ```java
 public List<List<String>> groupAnagrams(String[] strs) {
     if (strs.length == 0) return new ArrayList<>();

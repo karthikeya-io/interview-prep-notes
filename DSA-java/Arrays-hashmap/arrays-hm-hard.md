@@ -1,4 +1,4 @@
-Of course! Here are the hard problems explained with their optimal solutions:
+## Arrays and Hashmap (Hard)
 
 ---
 
@@ -274,5 +274,3 @@ public List<List<Integer>> getSkyline(int[][] buildings) {
     return result;
 }
 ```
-
-I've tried to break down each problem as simply as possible, using comments for better understanding. Let me know if you need further clarification on any problem!
