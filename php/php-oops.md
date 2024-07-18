@@ -84,7 +84,9 @@ $myCar = new Car("Toyota", "Corolla");
 
 ### PHP Access Modifiers
 Access modifiers define the visibility of properties and methods. They are `public`, `protected`, and `private`.
-
+- public accessible by any where
+- protected same class and child classes
+- same class
 **Example:**
 ```php
 <?php
